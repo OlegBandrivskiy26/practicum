@@ -1,0 +1,65 @@
+.carusel__grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.arrow__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    background-size: cover;
+    border: 3px solid #000;
+    border-radius: 2px;
+    margin-right: 30px;
+}
+.arrow__button:last-child{
+    margin-right: 0px;
+}
+.button__carusel{
+    font-size: 28px;
+    font-weight: 700;
+    width: 52px;
+    height: 52px;
+    background-size: cover;
+    border: 3px solid #000;
+    border-radius: 2px;
+    margin-right: 30px;
+}
+.arrow__left{
+    width: 12px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(./img/arrowLeft.png);
+}
+.arrow__right{
+    width: 12px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(./img/arrowRight.png);
+}
+.search{
+    width: 100px;
+    height: 4rem;
+    background-color: #EB5B25;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.search__img{
+    width: 32px;
+    height: 32px;
+    background-image: url("./img/search.png");
+    background-size: cover;
+}
+.form__group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
