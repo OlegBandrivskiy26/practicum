@@ -6,6 +6,7 @@ import Login from './Components/Login';
 import Resume from './Components/Resume';
 import SignUp from './Components/SignUp';
 import Trainee from './Components/Trainee';
+import Profile from './Components/Profile';
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/resume" element={<Resume/>}/>
                 <Route path="/signUp" element={<SignUp/>}/>
                 <Route path="/trainee" element={<Trainee/>}/>
+                <Route path="/profile" element={<Profile/>}/>
             </Routes>
         </div>
        

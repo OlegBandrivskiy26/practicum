@@ -1,25 +1,26 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button, Form} from 'react-bootstrap'
 import "./Resume.css"
+import "../App.css"
 
 const Trainee = () => {
   return (
     <Container>
         
-        <Form>
+        <Form style={{marginTop: "5rem",  }}>
             <Form.Group className="mb-3 form__group" controlId="formBasicEmail">
-                <Form.Control style={{marginTop: "30px",marginLeft: "96px", width: "950px", height: "4rem", fontSize: "32px", fontWeight: "400", border: "3px solid #000"}} className='input' type="email" placeholder="Пошук" />
+                <Form.Control style={{marginTop: "30px",marginLeft: "96px", width: "64.4rem", height: "3rem", fontSize: "24px", fontWeight: "400", border: "3px solid #000"}} className='input' type="email" placeholder="Пошук" />
                 <button className="search"><div className="search__img"></div></button>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-            <   Form.Control style={{ marginTop: "30px",marginLeft: "96px" ,width: "1100px", height: "4rem", fontSize: "32px", fontWeight: "400", border: "3px solid #000"}}  className='input' type="password" placeholder="Фільтрація" />
+            <   Form.Control style={{ marginTop: "10px",marginLeft: "96px" ,width: "69rem", height: "3rem", fontSize: "24px", fontWeight: "400", border: "3px solid #000"}}  className='input' type="password" placeholder="Фільтрація" />
             </Form.Group>
         </Form>
 
         <Row style={{marginLeft: "5rem"}}>
             <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}} >
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>
@@ -29,7 +30,7 @@ const Trainee = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}}>
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>
@@ -39,7 +40,7 @@ const Trainee = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}} >
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>
@@ -51,7 +52,7 @@ const Trainee = () => {
             </Row>
             <Row style={{marginLeft: "5rem"}}>
             <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}} className='mt-2' >
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>
@@ -61,7 +62,7 @@ const Trainee = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}} className='mt-2' >
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>
@@ -71,7 +72,7 @@ const Trainee = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem'}} className='mt-5'>
+                    <Card style={{ width: '18rem'}} className='mt-2' >
                         <Card.Body style={{border: '3px solid #000', borderRadius: '0.7rem'}}>
                             <Card.Title style={{paddingRight: "6.8rem"}}>Ім’я Прізвище</Card.Title>
                             <Card.Subtitle style={{paddingRight: "5rem"}} className="mb-5 text-muted">Frontend-розробник</Card.Subtitle>

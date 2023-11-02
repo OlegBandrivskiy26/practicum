@@ -1,0 +1,86 @@
+.profile__grp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile__container{
+    width: 90%;
+    height: 110%;
+    margin-top: 40px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.name__age__grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+.photo__section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+
+}
+.img__profile{
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.name{
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.age__span{
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.Education{
+    font-size: 22px;
+    font-weight: 400;
+}
+.about__grp{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.edit{
+    width: 154px;
+    height: 44px;
+    color: #fff;
+    background-color: #EB5B25;
+    border: none;
+    border-radius: 3px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+}
+.line{
+    width: 100%;
+    border: 1px solid #EB5B25;
+}
+.disc__section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.title__profile{
+    font-size: 22px;
+    font-weight: 600;
+}
+.desc__profile{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 20px;
+}
