@@ -84,3 +84,20 @@
     font-weight: 400;
     margin-left: 20px;
 }
+/* .name__employer{
+    margin-right: 200px;
+    margin-bottom: 32px;
+} */
+.about__grp__employer{
+    margin-left: 0px;
+}
+.btn__edit__employer{
+    margin-bottom: 0;
+    margin-left: 1000px;
+}
+.disc__section__column{
+    flex-direction: column;
+}
+.desc__profile__employer{
+    margin-left: 0px;
+}
